@@ -1,8 +1,8 @@
 import torch
 import torch.nn.functional as F
-from src.model import DecoderOnlyTransformer
-from src.dataset import get_loader
-from src.utils import DEVICE
+from .transformer_model import DecoderOnlyTransformer
+from .dataset import get_loader
+from .utils import DEVICE
 
 # === Load dataset file ===
 DATA_PATH = "/content/Transformer/Dataset/tiny_shakespeare.txt"
