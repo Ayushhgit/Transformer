@@ -1,6 +1,6 @@
 import torch
-from transformer_model import DecoderOnlyTransformer
-from dataset import load_dataset
+from .transformer_model import DecoderOnlyTransformer
+from .dataset import load_dataset
 
 # Load dataset (to get vocab and encoding logic)
 text, stoi, itos = load_dataset()
