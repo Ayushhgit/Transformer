@@ -8,7 +8,7 @@ if __name__ == "__main__":
     set_seed(42)
     
     # Load dataset
-    data_path = os.path.join(os.path.dirname(__file__), "..\\Dataset\\tiny_shakespeare.txt")
+    data_path = os.path.join(os.path.dirname(__file__), "../Dataset/tiny_shakespeare.txt")
     with open(data_path, 'r', encoding='utf-8') as f:
         text = f.read()
     
